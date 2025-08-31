@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files
+*.sqlite3
+*.db
+
+# Media and static files (often generated or collected)
+media/
+static/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.DS_Store
+
+# Environment variables and secrets
+.env
+local_settings.py  # If used for sensitive local settings
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
+
